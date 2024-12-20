@@ -1,0 +1,897 @@
+[
+  {
+    "id": "cubera",
+    "name": "Cubera"
+  },
+  {
+    "id": "babyswap",
+    "name": "BabySwap"
+  },
+  {
+    "id": "conic",
+    "name": "Conic Finance"
+  },
+  {
+    "id": "apeswap",
+    "name": "ApeSwap"
+  },
+  {
+    "id": "aerodrome",
+    "name": "Aerodrome"
+  },
+  {
+    "id": "nfty",
+    "name": "NFTY"
+  },
+  {
+    "id": "belt",
+    "name": "Belt"
+  },
+  {
+    "id": "pancakeswap",
+    "name": "PancakeSwap"
+  },
+  {
+    "id": "wsg",
+    "name": "WSG"
+  },
+  {
+    "id": "mdex",
+    "name": "Mdex"
+  },
+  {
+    "id": "pacoca",
+    "name": "Pacoca"
+  },
+  {
+    "id": "czodiac",
+    "name": "CZodiac"
+  },
+  {
+    "id": "honeyfarm",
+    "name": "HoneyFarm"
+  },
+  {
+    "id": "tosdis",
+    "name": "Tos Dis"
+  },
+  {
+    "id": "waultfinance",
+    "name": "WaultFinance"
+  },
+  {
+    "id": "yel",
+    "name": "YEL"
+  },
+  {
+    "id": "jetswap",
+    "name": "JetSwap"
+  },
+  {
+    "id": "rabbitfinance",
+    "name": "RabbitFinance"
+  },
+  {
+    "id": "kingdefi",
+    "name": "KingDefi"
+  },
+  {
+    "id": "openocean",
+    "name": "OpenOcean"
+  },
+  {
+    "id": "merlin",
+    "name": "Merlin"
+  },
+  {
+    "id": "iron",
+    "name": "Iron"
+  },
+  {
+    "id": "ironfinance",
+    "name": "IronFinance"
+  },
+  {
+    "id": "memefarm",
+    "name": "MemeFarm"
+  },
+  {
+    "id": "ten",
+    "name": "Ten"
+  },
+  {
+    "id": "dopple",
+    "name": "Dopple"
+  },
+  {
+    "id": "billionhappiness",
+    "name": "BillionHappiness"
+  },
+  {
+    "id": "garuda",
+    "name": "Garuda"
+  },
+  {
+    "id": "grand",
+    "name": "Grand"
+  },
+  {
+    "id": "dumpling",
+    "name": "Dumpling"
+  },
+  {
+    "id": "satis",
+    "name": "Satis"
+  },
+  {
+    "id": "synapse",
+    "name": "Synapse"
+  },
+  {
+    "id": "pancakebunny",
+    "name": "Pancakebunny"
+  },
+  {
+    "id": "marshmallow",
+    "name": "Marshmallow"
+  },
+  {
+    "id": "icarus",
+    "name": "Icarus"
+  },
+  {
+    "id": "swamp",
+    "name": "Swamp"
+  },
+  {
+    "id": "autofarm",
+    "name": "Autofarm"
+  },
+  {
+    "id": "venus",
+    "name": "Venus"
+  },
+  {
+    "id": "yieldbay",
+    "name": "YieldBay"
+  },
+  {
+    "id": "blizzard",
+    "name": "Blizzard"
+  },
+  {
+    "id": "typhoon",
+    "name": "Typhoon"
+  },
+  {
+    "id": "biti",
+    "name": "Biti"
+  },
+  {
+    "id": "bingo",
+    "name": "Bingo"
+  },
+  {
+    "id": "thunderswap",
+    "name": "ThunderSwap"
+  },
+  {
+    "id": "swirl",
+    "name": "Swirl"
+  },
+  {
+    "id": "zcore",
+    "name": "ZCore"
+  },
+  {
+    "id": "julswap",
+    "name": "JulSwap"
+  },
+  {
+    "id": "alpaca",
+    "name": "Alpaca"
+  },
+  {
+    "id": "pumpy",
+    "name": "Pumpy"
+  },
+  {
+    "id": "squirrel",
+    "name": "Squirrel"
+  },
+  {
+    "id": "bakery",
+    "name": "Bakery"
+  },
+  {
+    "id": "slimefinance",
+    "name": "SlimeFinance"
+  },
+  {
+    "id": "soup",
+    "name": "Soup"
+  },
+  {
+    "id": "1inch",
+    "name": "1Inch"
+  },
+  {
+    "id": "sponge",
+    "name": "Sponge"
+  },
+  {
+    "id": "crow",
+    "name": "Crow"
+  },
+  {
+    "id": "cafeswap",
+    "name": "CafeSwap"
+  },
+  {
+    "id": "kebab",
+    "name": "Kebab"
+  },
+  {
+    "id": "monster",
+    "name": "Monster"
+  },
+  {
+    "id": "nyanswop",
+    "name": "Nyanswop"
+  },
+  {
+    "id": "traphouse",
+    "name": "Traphouse"
+  },
+  {
+    "id": "bdollar",
+    "name": "bDollar"
+  },
+  {
+    "id": "thugswap",
+    "name": "ThugSwap"
+  },
+  {
+    "id": "fuel",
+    "name": "Fuel"
+  },
+  {
+    "id": "fortube",
+    "name": "ForTube"
+  },
+  {
+    "id": "fryworld",
+    "name": "FryWorld"
+  },
+  {
+    "id": "betu",
+    "name": "BETU"
+  },
+  {
+    "id": "charge",
+    "name": "Charge"
+  },
+  {
+    "id": "pearzap",
+    "name": "PearZap"
+  },
+  {
+    "id": "fruit",
+    "name": "Fruit"
+  },
+  {
+    "id": "quant",
+    "name": "QUANT"
+  },
+  {
+    "id": "ellipsis",
+    "name": "Ellipsis"
+  },
+  {
+    "id": "complus",
+    "name": "Complus"
+  },
+  {
+    "id": "bolt",
+    "name": "Bolt"
+  },
+  {
+    "id": "elkfinance",
+    "name": "ElkFinance"
+  },
+  {
+    "id": "dibs",
+    "name": "Dibs"
+  },
+  {
+    "id": "omnifarm",
+    "name": "Omnifarm"
+  },
+  {
+    "id": "narwhal",
+    "name": "Narwhal"
+  },
+  {
+    "id": "bishares",
+    "name": "BiShares"
+  },
+  {
+    "id": "annex",
+    "name": "Annex"
+  },
+  {
+    "id": "blockmine",
+    "name": "BlockMine"
+  },
+  {
+    "id": "singular",
+    "name": "Singular"
+  },
+  {
+    "id": "longdrink",
+    "name": "Longdrink"
+  },
+  {
+    "id": "viralata",
+    "name": "Viralata"
+  },
+  {
+    "id": "farmhero",
+    "name": "FarmHero"
+  },
+  {
+    "id": "saltswap",
+    "name": "SaltSwap"
+  },
+  {
+    "id": "ramenswap",
+    "name": "RamenSwap"
+  },
+  {
+    "id": "omnitrade",
+    "name": "Omnitrade"
+  },
+  {
+    "id": "stargate",
+    "name": "Stargate"
+  },
+  {
+    "id": "emp",
+    "name": "EMP"
+  },
+  {
+    "id": "biswap",
+    "name": "BiSwap"
+  },
+  {
+    "id": "pantherswap",
+    "name": "PantherSwap"
+  },
+  {
+    "id": "valas",
+    "name": "Valas"
+  },
+  {
+    "id": "bomb",
+    "name": "Bomb"
+  },
+  {
+    "id": "ripae",
+    "name": "Ripae"
+  },
+  {
+    "id": "dotdot",
+    "name": "DotDot"
+  },
+  {
+    "id": "pera",
+    "name": "Pera"
+  },
+  {
+    "id": "lendhub",
+    "name": "Lendhub"
+  },
+  {
+    "id": "hfi",
+    "name": "HFI"
+  },
+  {
+    "id": "lavaswap",
+    "name": "Lavaswap"
+  },
+  {
+    "id": "bankerjoe",
+    "name": "Banker Joe"
+  },
+  {
+    "id": "blizz",
+    "name": "Blizz"
+  },
+  {
+    "id": "traderjoe",
+    "name": "Trader Joe"
+  },
+  {
+    "id": "curve",
+    "name": "Curve"
+  },
+  {
+    "id": "oliveswap",
+    "name": "OliveSwap"
+  },
+  {
+    "id": "gondola",
+    "name": "Gondola"
+  },
+  {
+    "id": "lydia",
+    "name": "Lydia"
+  },
+  {
+    "id": "snowball",
+    "name": "Snowball"
+  },
+  {
+    "id": "pangolin",
+    "name": "Pangolin"
+  },
+  {
+    "id": "mai",
+    "name": "Mai"
+  },
+  {
+    "id": "mim",
+    "name": "MIM"
+  },
+  {
+    "id": "grape",
+    "name": "Grape"
+  },
+  {
+    "id": "aave",
+    "name": "Aave"
+  },
+  {
+    "id": "quickswap",
+    "name": "QuickSwap"
+  },
+  {
+    "id": "polywise",
+    "name": "Polywise"
+  },
+  {
+    "id": "polyalpha",
+    "name": "PolyAlpha"
+  },
+  {
+    "id": "sandman",
+    "name": "Sandman"
+  },
+  {
+    "id": "ironswap",
+    "name": "IronSwap"
+  },
+  {
+    "id": "polypup",
+    "name": "Polypup"
+  },
+  {
+    "id": "dfyn",
+    "name": "DFyn"
+  },
+  {
+    "id": "l2",
+    "name": "L2"
+  },
+  {
+    "id": "polyyeld",
+    "name": "Polyyeld"
+  },
+  {
+    "id": "polywantsacracker",
+    "name": "PolyWantsACracker"
+  },
+  {
+    "id": "dinoswap",
+    "name": "DinoSwap"
+  },
+  {
+    "id": "telxchange",
+    "name": "Telxchange"
+  },
+  {
+    "id": "boneswap",
+    "name": "BoneSwap"
+  },
+  {
+    "id": "polycat",
+    "name": "Polycat"
+  },
+  {
+    "id": "cometh",
+    "name": "Cometh"
+  },
+  {
+    "id": "polywhale",
+    "name": "Polywhale"
+  },
+  {
+    "id": "polysage",
+    "name": "PolySage"
+  },
+  {
+    "id": "jarvis",
+    "name": "Jarvis"
+  },
+  {
+    "id": "popsicle",
+    "name": "Popsicle"
+  },
+  {
+    "id": "polygonfarm",
+    "name": "PolygonFarm"
+  },
+  {
+    "id": "firebird",
+    "name": "Firebird"
+  },
+  {
+    "id": "polyzap",
+    "name": "Polyzap"
+  },
+  {
+    "id": "kyber",
+    "name": "Kyber"
+  },
+  {
+    "id": "beethovenx",
+    "name": "Beethoven X"
+  },
+  {
+    "id": "scream",
+    "name": "Scream"
+  },
+  {
+    "id": "spiritswap",
+    "name": "SpiritSwap"
+  },
+  {
+    "id": "geist",
+    "name": "Geist"
+  },
+  {
+    "id": "spookyswap",
+    "name": "SpookySwap"
+  },
+  {
+    "id": "tomb",
+    "name": "Tomb"
+  },
+  {
+    "id": "steakhouse",
+    "name": "SteakHouse"
+  },
+  {
+    "id": "stakesteak",
+    "name": "StakeSteak"
+  },
+  {
+    "id": "sushi",
+    "name": "Sushi"
+  },
+  {
+    "id": "0xdao",
+    "name": "0xDAO"
+  },
+  {
+    "id": "summitdefi",
+    "name": "SummitDefi"
+  },
+  {
+    "id": "ester",
+    "name": "Ester"
+  },
+  {
+    "id": "froyo",
+    "name": "Froyo"
+  },
+  {
+    "id": "wigoswap",
+    "name": "WigoSwap"
+  },
+  {
+    "id": "based",
+    "name": "Based"
+  },
+  {
+    "id": "tombswap",
+    "name": "TombSwap"
+  },
+  {
+    "id": "spartacadabra",
+    "name": "Spartacadabra"
+  },
+  {
+    "id": "2omb",
+    "name": "2omb"
+  },
+  {
+    "id": "hector",
+    "name": "Hector"
+  },
+  {
+    "id": "solarbeam",
+    "name": "SolarBeam"
+  },
+  {
+    "id": "huckleberry",
+    "name": "Huckleberry"
+  },
+  {
+    "id": "vvs",
+    "name": "VVS"
+  },
+  {
+    "id": "cronaswap",
+    "name": "CronaSwap"
+  },
+  {
+    "id": "liquidus",
+    "name": "Liquidus"
+  },
+  {
+    "id": "darkcrypto",
+    "name": "DarkCrypto"
+  },
+  {
+    "id": "mmf",
+    "name": "MMF"
+  },
+  {
+    "id": "voltage",
+    "name": "Voltage"
+  },
+  {
+    "id": "netswap",
+    "name": "Netswap"
+  },
+  {
+    "id": "tethys",
+    "name": "Tethys"
+  },
+  {
+    "id": "trisolaris",
+    "name": "Trisolaris"
+  },
+  {
+    "id": "solace",
+    "name": "Solace"
+  },
+  {
+    "id": "rose",
+    "name": "Rose"
+  },
+  {
+    "id": "stellaswap",
+    "name": "Stellaswap"
+  },
+  {
+    "id": "beamswap",
+    "name": "Beamswap"
+  },
+  {
+    "id": "solarflare",
+    "name": "Solarflare"
+  },
+  {
+    "id": "yuzuswap",
+    "name": "YuzuSwap"
+  },
+  {
+    "id": "valleyswap",
+    "name": "ValleySwap"
+  },
+  {
+    "id": "balancer",
+    "name": "Balancer"
+  },
+  {
+    "id": "velodrome",
+    "name": "Velodrome"
+  },
+  {
+    "id": "swapsicle",
+    "name": "Swapsicle"
+  },
+  {
+    "id": "radiant",
+    "name": "Radiant"
+  },
+  {
+    "id": "giddy",
+    "name": "Giddy"
+  },
+  {
+    "id": "dystopia",
+    "name": "Dystopia"
+  },
+  {
+    "id": "cone",
+    "name": "Cone"
+  },
+  {
+    "id": "hermes",
+    "name": "Hermes"
+  },
+  {
+    "id": "gmx",
+    "name": "GMX"
+  },
+  {
+    "id": "ferro",
+    "name": "Ferro"
+  },
+  {
+    "id": "aura",
+    "name": "Aura"
+  },
+  {
+    "id": "hop",
+    "name": "Hop"
+  },
+  {
+    "id": "convex",
+    "name": "Convex"
+  },
+  {
+    "id": "swapfish",
+    "name": "SwapFish"
+  },
+  {
+    "id": "opx",
+    "name": "OPX"
+  },
+  {
+    "id": "equalizer",
+    "name": "Equalizer"
+  },
+  {
+    "id": "mvx",
+    "name": "MVX"
+  },
+  {
+    "id": "thena",
+    "name": "Thena"
+  },
+  {
+    "id": "monolith",
+    "name": "Monolith"
+  },
+  {
+    "id": "gains",
+    "name": "Gains"
+  },
+  {
+    "id": "kyber",
+    "name": "Kyber"
+  },
+  {
+    "id": "solidly",
+    "name": "Solidly"
+  },
+  {
+    "id": "moonwell",
+    "name": "Moonwell"
+  },
+  {
+    "id": "cantoDex",
+    "name": "CantoDex"
+  },
+  {
+    "id": "solidlizard",
+    "name": "SolidLizard"
+  },
+  {
+    "id": "velocimeter",
+    "name": "Velocimeter"
+  },
+  {
+    "id": "equilibre",
+    "name": "Equilibre"
+  },
+  {
+    "id": "verse",
+    "name": "Verse"
+  },
+  {
+    "id": "ape",
+    "name": "Ape"
+  },
+  {
+    "id": "ramses",
+    "name": "Ramses"
+  },
+  {
+    "id": "mummy",
+    "name": "Mummy"
+  },
+  {
+    "id": "arbidex",
+    "name": "Arbidex"
+  },
+  {
+    "id": "exactly",
+    "name": "Exactly"
+  },
+  {
+    "id": "velocore",
+    "name": "Velocore"
+  },
+  {
+    "id": "solisnek",
+    "name": "SoliSnek"
+  },
+  {
+    "id": "pearl",
+    "name": "Pearl"
+  },
+  {
+    "id": "chronos",
+    "name": "Chronos"
+  },
+  {
+    "id": "gamma",
+    "name": "Gamma"
+  },
+  {
+    "id": "vesync",
+    "name": "veSync"
+  },
+  {
+    "id": "betswirl",
+    "name": "BetSwirl"
+  },
+  {
+    "id": "baseswap",
+    "name": "BaseSwap"
+  },
+  {
+    "id": "retro",
+    "name": "Retro"
+  },
+  {
+    "id": "uniswap",
+    "name": "Uniswap"
+  },
+  {
+    "id": "dracula",
+    "name": "Dracula"
+  },
+  {
+    "id": "fvm",
+    "name": "Velocimeter FVM"
+  },
+  {
+    "id": "bvm",
+    "name": "Velocimeter BVM"
+  },
+  {
+    "id": "alienbase",
+    "name": "AlienBase"
+  },
+  {
+    "id": "swapbased",
+    "name": "SwapBased",
+    "filter": true
+  },
+  {
+    "id": "baso",
+    "name": "Baso",
+    "filter": true
+  },
+  {
+    "id": "kinetix",
+    "name": "Kinetix",
+    "filter": true
+  }
+]

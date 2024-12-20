@@ -1,0 +1,287 @@
+{
+  "deployers": {
+    "Poly Stargate USDC LP": {
+      "networkConfig": {
+        "deployCommonParams": {
+          "feeConfig": "0x29Cf48EBB2A407dde4C5BF2549B86A07570AA737",
+          "feeRecipient": "0x455dde90aF71Eb7a246c848f74cb5900B55b5a62",
+          "ac": "0x7ecC65ddad1ac75143786F186E885B448Ba52a37",
+          "unirouter": "0xc5017BE80b4446988e8686168396289a9A62668E",
+          "vault": "0xe9199C66519b4bae936AdF5EbcfdCC91D57EC15f"
+        },
+        "vaultFactory": "0x66E032C9802E42bd340D51B64fe7A8058C9eC9e4"
+      },
+      "strategyConfig": {
+        "vaultConfig": {
+          "strategyChangeApprovalDelay": 3600,
+          "vaultName": "InvariFi Poly Stargate USDC LP",
+          "vaultSymbol": "invariFiPolyStargateUsdcLp"
+        },
+        "strategyConfig": {
+          "feeCategoryId": 0
+        },
+        "beaconAddress": "0x45B577414FDc4026188e5F300C6aaFA59d20455E",
+        "vaultConstructorParams": {
+          "_approvalDelay": 3600,
+          "_name": "InvariFi Poly Stargate USDC LP",
+          "_symbol": "invariFiPolyStargateUsdcLp",
+          "strategy": "0xeB6C9429553C6a866509f8BdB402d76eFb527469"
+        },
+        "createdAt": "2024-02-02T11:09:50.349Z"
+      }
+    },
+    "Poly Stargate USDT LP": {
+      "networkConfig": {
+        "deployCommonParams": {
+          "feeConfig": "0x29Cf48EBB2A407dde4C5BF2549B86A07570AA737",
+          "feeRecipient": "0x455dde90aF71Eb7a246c848f74cb5900B55b5a62",
+          "ac": "0x7ecC65ddad1ac75143786F186E885B448Ba52a37",
+          "unirouter": "0xc5017BE80b4446988e8686168396289a9A62668E",
+          "vault": "0x1bF46D90148A0e94Fc9876BCCEA48DA8A7bD5857"
+        },
+        "vaultFactory": "0x66E032C9802E42bd340D51B64fe7A8058C9eC9e4"
+      },
+      "strategyConfig": {
+        "vaultConfig": {
+          "strategyChangeApprovalDelay": 3600,
+          "vaultName": "InvariFi Poly Stargate USDT LP",
+          "vaultSymbol": "invariFiPolyStargateUsdtLp"
+        },
+        "strategyConfig": {
+          "feeCategoryId": 0
+        },
+        "beaconAddress": "0xecb2F20D2e030195ff4DcD69AAA0672D89455C01",
+        "vaultConstructorParams": {
+          "_approvalDelay": 3600,
+          "_name": "InvariFi Poly Stargate USDT LP",
+          "_symbol": "invariFiPolyStargateUsdtLp",
+          "strategy": "0xbB8897A8950a6f8b94B5233491c0134e2e23174A"
+        },
+        "createdAt": "2024-02-02T11:10:17.303Z"
+      }
+    },
+    "Poly Retro Gamma MATIC-WETH LP": {
+      "networkConfig": {
+        "deployCommonParams": {
+          "feeConfig": "0x29Cf48EBB2A407dde4C5BF2549B86A07570AA737",
+          "feeRecipient": "0x455dde90aF71Eb7a246c848f74cb5900B55b5a62",
+          "ac": "0x7ecC65ddad1ac75143786F186E885B448Ba52a37",
+          "unirouter": "0x1891783cb3497Fdad1F25C933225243c2c7c4102",
+          "vault": "0xb63938Fb5833fde158f897C4D7a179C80D35Fc90"
+        },
+        "vaultFactory": "0x66E032C9802E42bd340D51B64fe7A8058C9eC9e4"
+      },
+      "strategyConfig": {
+        "vaultConfig": {
+          "strategyChangeApprovalDelay": 3600,
+          "vaultName": "InvariFi Poly Retro Gamma MATIC-WETH LP",
+          "vaultSymbol": "invariFiPolyRetroGammaMaticWethLp"
+        },
+        "strategyConfig": {
+          "feeCategoryId": 0
+        },
+        "beaconAddress": "0xb0C21A98BE876996e5af245e87B90487d6622F99",
+        "vaultConstructorParams": {
+          "_approvalDelay": 3600,
+          "_name": "InvariFi Poly Retro Gamma MATIC-WETH LP",
+          "_symbol": "invariFiPolyRetroGammaMaticWethLp",
+          "strategy": "0x5279F4F1768CaAD2EBF4c9bbF173A923a1f0D764"
+        },
+        "createdAt": "2024-02-02T11:12:15.957Z"
+      }
+    },
+    "Poly Retro Gamma USDC-MATIC LP": {
+      "networkConfig": {
+        "deployCommonParams": {
+          "feeConfig": "0x29Cf48EBB2A407dde4C5BF2549B86A07570AA737",
+          "feeRecipient": "0x455dde90aF71Eb7a246c848f74cb5900B55b5a62",
+          "ac": "0x7ecC65ddad1ac75143786F186E885B448Ba52a37",
+          "unirouter": "0x1891783cb3497Fdad1F25C933225243c2c7c4102",
+          "vault": "0x41e4dDf9A8F65997484faCb9c4614aF3A4ddC929"
+        },
+        "vaultFactory": "0x66E032C9802E42bd340D51B64fe7A8058C9eC9e4"
+      },
+      "strategyConfig": {
+        "vaultConfig": {
+          "strategyChangeApprovalDelay": 3600,
+          "vaultName": "InvariFi Poly Retro Gamma USDC-MATIC LP",
+          "vaultSymbol": "invariFiPolyRetroGammaUsdcMaticLp"
+        },
+        "strategyConfig": {
+          "feeCategoryId": 0
+        },
+        "beaconAddress": "0x02ceF567f96d5b8678EDA2e4127bD3A9eCf05d3A",
+        "vaultConstructorParams": {
+          "_approvalDelay": 3600,
+          "_name": "InvariFi Poly Retro Gamma USDC-MATIC LP",
+          "_symbol": "invariFiPolyRetroGammaUsdcMaticLp",
+          "strategy": "0xc9606E24F8b2fA11Eaa2583A2921C25D3B3cAdbB"
+        },
+        "createdAt": "2024-02-02T11:15:12.002Z"
+      }
+    },
+    "Poly Retro Gamma USDC-USDT LP": {
+      "networkConfig": {
+        "deployCommonParams": {
+          "feeConfig": "0x29Cf48EBB2A407dde4C5BF2549B86A07570AA737",
+          "feeRecipient": "0x455dde90aF71Eb7a246c848f74cb5900B55b5a62",
+          "ac": "0x7ecC65ddad1ac75143786F186E885B448Ba52a37",
+          "unirouter": "0x1891783cb3497Fdad1F25C933225243c2c7c4102",
+          "vault": "0xD01F4bF64004E153abCE55d19C144ebEe5DB105A"
+        },
+        "vaultFactory": "0x66E032C9802E42bd340D51B64fe7A8058C9eC9e4"
+      },
+      "strategyConfig": {
+        "vaultConfig": {
+          "strategyChangeApprovalDelay": 3600,
+          "vaultName": "InvariFi Poly Retro Gamma USDC-USDT LP",
+          "vaultSymbol": "invariFiPolyRetroGammaUsdcUsdtLp"
+        },
+        "strategyConfig": {
+          "feeCategoryId": 0
+        },
+        "beaconAddress": "0x1bBb05d5569b49EB2844df539745915a79eD2808",
+        "vaultConstructorParams": {
+          "_approvalDelay": 3600,
+          "_name": "InvariFi Poly Retro Gamma USDC-USDT LP",
+          "_symbol": "invariFiPolyRetroGammaUsdcUsdtLp",
+          "strategy": "0x9164FC220EB76e0767F9e5b4c4F2BaaB7A1AA78c"
+        },
+        "createdAt": "2024-02-02T11:15:40.720Z"
+      }
+    },
+    "Poly Retro Gamma USDC-WETH LP": {
+      "networkConfig": {
+        "deployCommonParams": {
+          "feeConfig": "0x29Cf48EBB2A407dde4C5BF2549B86A07570AA737",
+          "feeRecipient": "0x455dde90aF71Eb7a246c848f74cb5900B55b5a62",
+          "ac": "0x7ecC65ddad1ac75143786F186E885B448Ba52a37",
+          "unirouter": "0x1891783cb3497Fdad1F25C933225243c2c7c4102",
+          "vault": "0x1e387Ec60AF59753fF1001B0806833D00d7F8A82"
+        },
+        "vaultFactory": "0x66E032C9802E42bd340D51B64fe7A8058C9eC9e4"
+      },
+      "strategyConfig": {
+        "vaultConfig": {
+          "strategyChangeApprovalDelay": 3600,
+          "vaultName": "InvariFi Poly Retro Gamma USDC-WETH LP",
+          "vaultSymbol": "invariFiPolyRetroGammaUsdcWethLp"
+        },
+        "strategyConfig": {
+          "feeCategoryId": 0
+        },
+        "beaconAddress": "0x9Eb7a50D535FD4Eb92279E717ddad9514cCDABEa",
+        "vaultConstructorParams": {
+          "_approvalDelay": 3600,
+          "_name": "InvariFi Poly Retro Gamma USDC-WETH LP",
+          "_symbol": "invariFiPolyRetroGammaUsdcWethLp",
+          "strategy": "0xC3C09d8E27593fFf6aAc4A74737242c0EFa7251F"
+        },
+        "createdAt": "2024-02-02T11:16:12.063Z"
+      }
+    }
+  },
+  "config": {
+    "contractsConfig": {
+      "devMultisig": "0x0D4911Be84344d3141b0790a519Cb3c4d74F845e",
+      "treasuryMultisig": "0x0D4911Be84344d3141b0790a519Cb3c4d74F845e",
+      "voter": "0x0D4911Be84344d3141b0790a519Cb3c4d74F845e",
+      "vaultOwner": "0x0D4911Be84344d3141b0790a519Cb3c4d74F845e",
+      "strategyOwner": "0x0D4911Be84344d3141b0790a519Cb3c4d74F845e",
+      "treasurer": "0x0D4911Be84344d3141b0790a519Cb3c4d74F845e",
+      "keeper": "0x0D4911Be84344d3141b0790a519Cb3c4d74F845e",
+      "feeConfig": {
+        "default": {
+          "id": "0",
+          "total": "0.095",
+          "call": "0.942",
+          "strategist": "0.0052",
+          "label": "default",
+          "active": true,
+          "adjust": false
+        },
+        "feeConfigurator": "0x29Cf48EBB2A407dde4C5BF2549B86A07570AA737"
+      },
+      "zaps": {
+        "oneInch": {
+          "router": "0x1111111254EEB25477B68fb85Ed929f73A960582",
+          "categories": [
+            "common",
+            "retro-gamma"
+          ],
+          "metadata": {
+            "priceOracleAddress": "0x7F069df72b7A39bCE9806e3AfaF579E54D8CF2b9",
+            "fee": {
+              "value": 0.0005
+            },
+            "depositFromTokens": [
+              "MATIC",
+              "WMATIC",
+              "USDC",
+              "USDT",
+              "DAI",
+              "ETH",
+              "WBTC"
+            ],
+            "withdrawToTokens": [
+              "MATIC",
+              "WMATIC",
+              "USDC",
+              "USDT",
+              "DAI",
+              "ETH",
+              "WBTC"
+            ],
+            "blockedTokens": [],
+            "blockedVaults": []
+          },
+          "zaps": [
+            {
+              "address": "0x7d06BBC6E2ec4cc5F340499F0E67664F952C8b8C",
+              "category": "common"
+            },
+            {
+              "address": "0x052Ba7EBC2a159B79EC042bfA00e5de7330190d8",
+              "category": "retro-gamma"
+            }
+          ]
+        }
+      },
+      "wNative": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
+      "earn": {
+        "reservedForAutomation": 10,
+        "stable": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+        "priceAggregator": "0xdFa57107469b612e3A3294666De10FE2fFfc1529",
+        "gelatoSwapper": "0x28a054D863695f07B61FF5624ca524FA227bB113",
+        "earnConfiguration": "0xF69eA4b10e4BE667e4A043DD6a772c0cf82eff4D",
+        "gelatoChecker": "0x89a212CE0213E78E14dE5cBC03fC2E5f2a4813e6",
+        "earnBeacon": "0x1c75DdD560aC2848a26ba243A3CD91621ACba57b",
+        "earnFactory": "0x2556325bA926A2D78FA634908c3dA6AEbDeC5b28",
+        "earnHelper": "0x3BbA2523091E4c611957Ee5D58B264B0C27ad489",
+        "lpHelpers": {
+          "stargate": {
+            "address": "0x1Edaaa6d7E6feEb52014Db9aDce83A200cD1697e"
+          },
+          "retro-gamma": {
+            "address": "0xa727e1Db0B0f0E3907A554ab7441F192Ca993B46"
+          }
+        }
+      },
+      "ac": "0x7ecC65ddad1ac75143786F186E885B448Ba52a37",
+      "treasury": "0x455dde90aF71Eb7a246c848f74cb5900B55b5a62",
+      "multicall": "0x95D3fe3b5b843d38B3b6dc9A3840125f6aF67C77",
+      "multicallManager": "0xc471c06D451E08e1d7952FD33D37426a249b3578",
+      "vaultBeacon": "0x13bFbAdD7c1186D73DEbaF303BAdc924E3a59ACe",
+      "vaultFactory": "0x66E032C9802E42bd340D51B64fe7A8058C9eC9e4",
+      "boostImplementation": "0x0B2Bd3f18Da713a46d50E6415FaCf017dE4aFB52",
+      "boostFactory": "0xfFCd1C1E4FbFD9B67dfba7D385a2508C50969718"
+    },
+    "environment": {
+      "unirouter": "0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D",
+      "unirouterV3": "0xE592427A0AEce92De3Edee1F18E0157C05861564",
+      "gelatoAutomate": "0x2A6C106ae13B558BB9E2Ec64Bd2f1f7BEFF3A5E0",
+      "oneInchRouter": "0x1111111254EEB25477B68fb85Ed929f73A960582",
+      "uniswapV3Quoter": "0xb27308f9F90D607463bb33eA1BeBb41C27CE5AB6"
+    }
+  }
+}

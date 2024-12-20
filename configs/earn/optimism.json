@@ -1,0 +1,33 @@
+[
+  {
+    "id": "op-stargate-usdc-hop-DAI",
+    "description": "Stargate/Hop/USDC/DAI",
+    "stableAddress": "0x94b008aA00579c1307B0EF2c499aD98a8ce58e58",
+    "stableDecimals": 6,
+    "stable": "USDT",
+    "name": "Stargate USDC Hop DAI",
+    "stopLosses": [10, 15, 30],
+    "earnHelper": "0x45B577414FDc4026188e5F300C6aaFA59d20455E",
+    "earn": "0x1Ef674Fd925d0CD56B00F9aC6c802AE99468b7E3",
+    "vaults": [
+      {
+        "part": 50,
+        "vaultId": "stargate-op-usdc",
+        "lpHelper": "0x16Cfec90E3A040f655B7a709E3D75d60a0c35336"
+      },
+      {
+        "part": 50,
+        "vaultId": "hop-op-dai",
+        "lpHelper": "0x3Bb500fC370D18900aE801fb5f0fb9d3Be58E95B"
+      }
+    ],
+    "earnConfiguration": "0x89a212CE0213E78E14dE5cBC03fC2E5f2a4813e6",
+    "priceAggregator": "0x28a054D863695f07B61FF5624ca524FA227bB113",
+    "reservedForAutomation": 30,
+    "status": "active",
+    "risks": [],
+    "gelatoChecker": "0x1c75DdD560aC2848a26ba243A3CD91621ACba57b",
+    "createdAt": 1706875679,
+    "network": "optimism"
+  }
+]

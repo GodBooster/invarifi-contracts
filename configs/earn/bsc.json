@@ -1,0 +1,42 @@
+[
+  {
+    "id": "bsc-earn-stargate-cake-biswap-busd-usdt-v4",
+    "description": "Stargate/Cake/Biswap BUSD/USDT V2",
+    "stableAddress": "0x55d398326f99059ff775485246999027b3197955",
+    "stableDecimals": 18,
+    "stable": "USDT",
+    "name": "Stargate/Cake/Biswap BUSD/USDT V2",
+    "stopLosses": [
+      10,
+      15,
+      30
+    ],
+    "earnHelper": "0x6fe025052B59884d691E8dB5c12889D7b998b9fB",
+    "earn": "0x156F3f5eC03c16f4C3a500d797470892a2cB7F5c",
+    "vaults": [
+      {
+        "part": 40,
+        "vaultId": "cakev2-cake-bnb",
+        "lpHelper": "0x50Db9C035b38085c5277aba59F80beeaA7901434"
+      },
+      {
+        "part": 50,
+        "vaultId": "stargate-bsc-usdt",
+        "lpHelper": "0xCa03496dC7Aac0aFEbd67109B60a387f02766356"
+      },
+      {
+        "part": 10,
+        "vaultId": "biswap-eth-wbnb",
+        "lpHelper": "0x50Db9C035b38085c5277aba59F80beeaA7901434"
+      }
+    ],
+    "earnConfiguration": "0x24cA763329cff2ad99F910C45b5b6bD33E4227C4",
+    "priceAggregator": "0xf68FAAD62375C27cA744D48A0C5463cAE839B7a5",
+    "reservedForAutomation": 10,
+    "status": "active",
+    "risks": [],
+    "gelatoChecker": "0xbB23F98D0270A5f2f53aFCE451b35Fad1Df7eF2F",
+    "createdAt": 1706882861,
+    "network": "bsc"
+  }
+]

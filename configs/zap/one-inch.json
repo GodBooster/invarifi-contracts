@@ -1,0 +1,246 @@
+[
+  {
+    "priceOracleAddress": "0x735247fb0a604c0adC6cab38ACE16D0DbA31295F",
+    "fee": {
+      "value": 0.0005,
+      "recipient": "0x455dde90aF71Eb7a246c848f74cb5900B55b5a62"
+    },
+    "depositFromTokens": [
+      "ETH",
+      "ARB",
+      "WETH",
+      "USDC",
+      "USDT",
+      "DAI",
+      "WBTC",
+      "wstETH"
+    ],
+    "withdrawToTokens": [
+      "ETH",
+      "ARB",
+      "WETH",
+      "USDC",
+      "USDT",
+      "DAI",
+      "WBTC",
+      "wstETH"
+    ],
+    "blockedTokens": [],
+    "blockedVaults": [],
+    "id": "arbitrum",
+    "chainId": "arbitrum",
+    "strategies": [
+      {
+        "address": "0x7d06BBC6E2ec4cc5F340499F0E67664F952C8b8C",
+        "category": "common"
+      },
+      {
+        "address": "0x052Ba7EBC2a159B79EC042bfA00e5de7330190d8",
+        "category": "hop"
+      },
+      {
+        "address": "0x2544485BfeBcC13ea05E35909D5c61AdF6C45699",
+        "category": "balancer-aura-arbitrum"
+      }
+    ],
+    "autoswapTokens": [
+      "ETH",
+      "ARB",
+      "WETH",
+      "USDC",
+      "USDT",
+      "DAI",
+      "WBTC",
+      "wstETH"
+    ]
+  },
+  {
+    "priceOracleAddress": "0xfbD61B037C325b959c0F6A7e69D8f37770C2c550",
+    "fee": {
+      "value": 0.0005,
+      "recipient": "0x9Eb7a50D535FD4Eb92279E717ddad9514cCDABEa"
+    },
+    "depositFromTokens": [
+      "BNB",
+      "WBNB",
+      "USDC",
+      "USDT",
+      "DAI",
+      "BTCB"
+    ],
+    "withdrawToTokens": [
+      "BNB",
+      "WBNB",
+      "USDC",
+      "USDT",
+      "DAI",
+      "BTCB"
+    ],
+    "blockedTokens": [],
+    "blockedVaults": [],
+    "id": "bsc",
+    "chainId": "bsc",
+    "strategies": [
+      {
+        "address": "0x1e4d563Bc17f710D9A58a779E8068BD47653a3aC",
+        "category": "common"
+      }
+    ],
+    "autoswapTokens": [
+      "BNB",
+      "WBNB",
+      "USDC",
+      "USDT",
+      "DAI",
+      "BTCB"
+    ]
+  },
+  {
+    "priceOracleAddress": "0x7F069df72b7A39bCE9806e3AfaF579E54D8CF2b9",
+    "fee": {
+      "value": 0.0005,
+      "recipient": "0x455dde90aF71Eb7a246c848f74cb5900B55b5a62"
+    },
+    "depositFromTokens": [
+      "MATIC",
+      "WMATIC",
+      "USDC",
+      "USDT",
+      "DAI",
+      "ETH",
+      "WBTC"
+    ],
+    "withdrawToTokens": [
+      "MATIC",
+      "WMATIC",
+      "USDC",
+      "USDT",
+      "DAI",
+      "ETH",
+      "WBTC"
+    ],
+    "blockedTokens": [],
+    "blockedVaults": [],
+    "id": "polygon",
+    "chainId": "polygon",
+    "strategies": [
+      {
+        "address": "0x7d06BBC6E2ec4cc5F340499F0E67664F952C8b8C",
+        "category": "common"
+      },
+      {
+        "address": "0x052Ba7EBC2a159B79EC042bfA00e5de7330190d8",
+        "category": "retro-gamma"
+      }
+    ],
+    "autoswapTokens": [
+      "MATIC",
+      "WMATIC",
+      "USDC",
+      "USDT",
+      "DAI",
+      "ETH",
+      "WBTC"
+    ]
+  },
+  {
+    "priceOracleAddress": "0x0AdDd25a91563696D8567Df78D5A01C9a991F9B8",
+    "fee": {
+      "value": 0.0005,
+      "recipient": "0x455dde90aF71Eb7a246c848f74cb5900B55b5a62"
+    },
+    "depositFromTokens": [
+      "ETH",
+      "WETH",
+      "USDbC",
+      "USDC",
+      "DAI"
+    ],
+    "withdrawToTokens": [
+      "ETH",
+      "WETH",
+      "USDbC",
+      "USDC",
+      "DAI"
+    ],
+    "blockedTokens": [],
+    "blockedVaults": [],
+    "id": "base",
+    "chainId": "base",
+    "strategies": [
+      {
+        "address": "0x7d06BBC6E2ec4cc5F340499F0E67664F952C8b8C",
+        "category": "common"
+      },
+      {
+        "address": "0x052Ba7EBC2a159B79EC042bfA00e5de7330190d8",
+        "category": "balancer-aura-arbitrum"
+      },
+      {
+        "address": "0x2544485BfeBcC13ea05E35909D5c61AdF6C45699",
+        "category": "velodrome"
+      },
+      {
+        "address": "0xac7119d066b769449554B0e31Fc35DD8Cc14A435",
+        "category": "baseswap"
+      }
+    ],
+    "autoswapTokens": [
+      "ETH",
+      "WETH",
+      "USDbC",
+      "USDC",
+      "DAI"
+    ]
+  },
+  {
+    "priceOracleAddress": "0x11DEE30E710B8d4a8630392781Cc3c0046365d4c",
+    "fee": {
+      "value": 0.0005,
+      "recipient": "0x455dde90aF71Eb7a246c848f74cb5900B55b5a62"
+    },
+    "depositFromTokens": [
+      "ETH",
+      "OP",
+      "USDC",
+      "USDT",
+      "DAI"
+    ],
+    "withdrawToTokens": [
+      "ETH",
+      "OP",
+      "USDC",
+      "USDT",
+      "DAI"
+    ],
+    "blockedTokens": [],
+    "blockedVaults": [],
+    "id": "optimism",
+    "chainId": "optimism",
+    "strategies": [
+      {
+        "address": "0x7d06BBC6E2ec4cc5F340499F0E67664F952C8b8C",
+        "category": "common"
+      },
+      {
+        "address": "0x052Ba7EBC2a159B79EC042bfA00e5de7330190d8",
+        "category": "velodrome"
+      },
+      {
+        "address": "0x2544485BfeBcC13ea05E35909D5c61AdF6C45699",
+        "category": "hop"
+      },
+      {
+        "address": "0xac7119d066b769449554B0e31Fc35DD8Cc14A435",
+        "category": "curve-op"
+      }
+    ],
+    "autoswapTokens": [
+      "ETH",
+      "OP",
+      "USDC",
+      "USDT",
+      "DAI"
+    ]
+  }
+]

@@ -1,0 +1,287 @@
+{
+  "deployers": {
+    "BASE Stargate ETH LP": {
+      "networkConfig": {
+        "deployCommonParams": {
+          "feeConfig": "0x29Cf48EBB2A407dde4C5BF2549B86A07570AA737",
+          "feeRecipient": "0x455dde90aF71Eb7a246c848f74cb5900B55b5a62",
+          "ac": "0x7ecC65ddad1ac75143786F186E885B448Ba52a37",
+          "unirouter": "0xBA12222222228d8Ba445958a75a0704d566BF2C8",
+          "vault": "0xe9199C66519b4bae936AdF5EbcfdCC91D57EC15f"
+        },
+        "vaultFactory": "0x66E032C9802E42bd340D51B64fe7A8058C9eC9e4"
+      },
+      "strategyConfig": {
+        "vaultConfig": {
+          "strategyChangeApprovalDelay": 3600,
+          "vaultName": "InvariFi BASE Stargate ETH LP",
+          "vaultSymbol": "invariFiBaseStargateEthLp"
+        },
+        "strategyConfig": {
+          "feeCategoryId": 0
+        },
+        "beaconAddress": "0xB9e67A0A53E17E3dB346796F9D0E70b1DcE8b9D5",
+        "vaultConstructorParams": {
+          "_approvalDelay": 3600,
+          "_name": "InvariFi BASE Stargate ETH LP",
+          "_symbol": "invariFiBaseStargateEthLp",
+          "strategy": "0xeB6C9429553C6a866509f8BdB402d76eFb527469"
+        },
+        "createdAt": "2024-02-02T11:25:44.810Z"
+      }
+    },
+    "BASE Stargate USDbC LP": {
+      "networkConfig": {
+        "deployCommonParams": {
+          "feeConfig": "0x29Cf48EBB2A407dde4C5BF2549B86A07570AA737",
+          "feeRecipient": "0x455dde90aF71Eb7a246c848f74cb5900B55b5a62",
+          "ac": "0x7ecC65ddad1ac75143786F186E885B448Ba52a37",
+          "unirouter": "0xBA12222222228d8Ba445958a75a0704d566BF2C8",
+          "vault": "0x1bF46D90148A0e94Fc9876BCCEA48DA8A7bD5857"
+        },
+        "vaultFactory": "0x66E032C9802E42bd340D51B64fe7A8058C9eC9e4"
+      },
+      "strategyConfig": {
+        "vaultConfig": {
+          "strategyChangeApprovalDelay": 3600,
+          "vaultName": "InvariFi BASE Stargate USDbC LP",
+          "vaultSymbol": "invariFiBaseStargateUsDbCLp"
+        },
+        "strategyConfig": {
+          "feeCategoryId": 0
+        },
+        "beaconAddress": "0xAceE92Ab389A4bA196270cF5B9f62518c2aC33AE",
+        "vaultConstructorParams": {
+          "_approvalDelay": 3600,
+          "_name": "InvariFi BASE Stargate USDbC LP",
+          "_symbol": "invariFiBaseStargateUsDbCLp",
+          "strategy": "0xbB8897A8950a6f8b94B5233491c0134e2e23174A"
+        },
+        "createdAt": "2024-02-02T11:26:08.478Z"
+      }
+    },
+    "BASE Balancer cbETH-ETH": {
+      "networkConfig": {
+        "deployCommonParams": {
+          "feeConfig": "0x29Cf48EBB2A407dde4C5BF2549B86A07570AA737",
+          "feeRecipient": "0x455dde90aF71Eb7a246c848f74cb5900B55b5a62",
+          "ac": "0x7ecC65ddad1ac75143786F186E885B448Ba52a37",
+          "unirouter": "0xBA12222222228d8Ba445958a75a0704d566BF2C8",
+          "vault": "0xb63938Fb5833fde158f897C4D7a179C80D35Fc90"
+        },
+        "vaultFactory": "0x66E032C9802E42bd340D51B64fe7A8058C9eC9e4"
+      },
+      "strategyConfig": {
+        "vaultConfig": {
+          "strategyChangeApprovalDelay": 3600,
+          "vaultName": "InvariFi BASE Balancer cbETH-ETH",
+          "vaultSymbol": "invariFiBaseBalancerCbEthEth"
+        },
+        "strategyConfig": {
+          "feeCategoryId": 0
+        },
+        "beaconAddress": "0x77fF0b1676e70E6eAb034A415F7c5f07B78572F6",
+        "vaultConstructorParams": {
+          "_approvalDelay": 3600,
+          "_name": "InvariFi BASE Balancer cbETH-ETH",
+          "_symbol": "invariFiBaseBalancerCbEthEth",
+          "strategy": "0x5279F4F1768CaAD2EBF4c9bbF173A923a1f0D764"
+        },
+        "createdAt": "2024-02-02T11:26:43.436Z"
+      }
+    },
+    "BASE Aerodrome cbETH-​ETH vLP": {
+      "networkConfig": {
+        "deployCommonParams": {
+          "feeConfig": "0x29Cf48EBB2A407dde4C5BF2549B86A07570AA737",
+          "feeRecipient": "0x455dde90aF71Eb7a246c848f74cb5900B55b5a62",
+          "ac": "0x7ecC65ddad1ac75143786F186E885B448Ba52a37",
+          "unirouter": "0xcF77a3Ba9A5CA399B7c97c74d54e5b1Beb874E43",
+          "vault": "0x41e4dDf9A8F65997484faCb9c4614aF3A4ddC929"
+        },
+        "vaultFactory": "0x66E032C9802E42bd340D51B64fe7A8058C9eC9e4"
+      },
+      "strategyConfig": {
+        "vaultConfig": {
+          "strategyChangeApprovalDelay": 3600,
+          "vaultName": "InvariFi BASE Aerodrome cbETH-​ETH vLP",
+          "vaultSymbol": "invariFiBaseAerodromeCbEthEthVLp"
+        },
+        "strategyConfig": {
+          "feeCategoryId": 0
+        },
+        "beaconAddress": "0xff3246a7639E1b6b263E950Be855aEd1c6b3B9E7",
+        "vaultConstructorParams": {
+          "_approvalDelay": 3600,
+          "_name": "InvariFi BASE Aerodrome cbETH-​ETH vLP",
+          "_symbol": "invariFiBaseAerodromeCbEthEthVLp",
+          "strategy": "0xc9606E24F8b2fA11Eaa2583A2921C25D3B3cAdbB"
+        },
+        "createdAt": "2024-02-02T11:27:18.111Z"
+      }
+    },
+    "BASE Baseswap USDC-ETH LP": {
+      "networkConfig": {
+        "deployCommonParams": {
+          "feeConfig": "0x29Cf48EBB2A407dde4C5BF2549B86A07570AA737",
+          "feeRecipient": "0x455dde90aF71Eb7a246c848f74cb5900B55b5a62",
+          "ac": "0x7ecC65ddad1ac75143786F186E885B448Ba52a37",
+          "unirouter": "0x327Df1E6de05895d2ab08513aaDD9313Fe505d86",
+          "vault": "0xD01F4bF64004E153abCE55d19C144ebEe5DB105A"
+        },
+        "vaultFactory": "0x66E032C9802E42bd340D51B64fe7A8058C9eC9e4"
+      },
+      "strategyConfig": {
+        "vaultConfig": {
+          "strategyChangeApprovalDelay": 3600,
+          "vaultName": "InvariFi BASE Baseswap USDC-ETH LP",
+          "vaultSymbol": "invariFiBaseBaseswapUsdcEthLp"
+        },
+        "strategyConfig": {
+          "feeCategoryId": 0
+        },
+        "beaconAddress": "0x9Eb7a50D535FD4Eb92279E717ddad9514cCDABEa",
+        "vaultConstructorParams": {
+          "_approvalDelay": 3600,
+          "_name": "InvariFi BASE Baseswap USDC-ETH LP",
+          "_symbol": "invariFiBaseBaseswapUsdcEthLp",
+          "strategy": "0x9164FC220EB76e0767F9e5b4c4F2BaaB7A1AA78c"
+        },
+        "createdAt": "2024-02-02T11:27:52.300Z"
+      }
+    }
+  },
+  "config": {
+    "contractsConfig": {
+      "devMultisig": "0x0D4911Be84344d3141b0790a519Cb3c4d74F845e",
+      "treasuryMultisig": "0x0D4911Be84344d3141b0790a519Cb3c4d74F845e",
+      "voter": "0x0D4911Be84344d3141b0790a519Cb3c4d74F845e",
+      "vaultOwner": "0x0D4911Be84344d3141b0790a519Cb3c4d74F845e",
+      "strategyOwner": "0x0D4911Be84344d3141b0790a519Cb3c4d74F845e",
+      "treasurer": "0x0D4911Be84344d3141b0790a519Cb3c4d74F845e",
+      "keeper": "0x0D4911Be84344d3141b0790a519Cb3c4d74F845e",
+      "feeConfig": {
+        "default": {
+          "id": "0",
+          "total": "0.095",
+          "call": "0.942",
+          "strategist": "0.0052",
+          "label": "default",
+          "active": true,
+          "adjust": false
+        },
+        "feeConfigurator": "0x29Cf48EBB2A407dde4C5BF2549B86A07570AA737"
+      },
+      "zaps": {
+        "oneInch": {
+          "router": "0x1111111254EEB25477B68fb85Ed929f73A960582",
+          "categories": [
+            "common",
+            "balancer-aura-arbitrum",
+            "velodrome",
+            "baseswap"
+          ],
+          "metadata": {
+            "priceOracleAddress": "0x0AdDd25a91563696D8567Df78D5A01C9a991F9B8",
+            "fee": {
+              "value": 0.0005
+            },
+            "depositFromTokens": [
+              "ETH",
+              "WETH",
+              "USDbC",
+              "USDC",
+              "DAI"
+            ],
+            "withdrawToTokens": [
+              "ETH",
+              "WETH",
+              "USDbC",
+              "USDC",
+              "DAI"
+            ],
+            "blockedTokens": [],
+            "blockedVaults": []
+          },
+          "zaps": [
+            {
+              "address": "0x7d06BBC6E2ec4cc5F340499F0E67664F952C8b8C",
+              "category": "common"
+            },
+            {
+              "address": "0x052Ba7EBC2a159B79EC042bfA00e5de7330190d8",
+              "category": "balancer-aura-arbitrum"
+            },
+            {
+              "address": "0x2544485BfeBcC13ea05E35909D5c61AdF6C45699",
+              "category": "velodrome"
+            },
+            {
+              "address": "0xac7119d066b769449554B0e31Fc35DD8Cc14A435",
+              "category": "baseswap"
+            }
+          ]
+        }
+      },
+      "wNative": "0x4200000000000000000000000000000000000006",
+      "earn": {
+        "reservedForAutomation": 0,
+        "stable": "0xd9aAEc86B65D86f6A7B5B1b0c42FFA531710b6CA",
+        "priceAggregator": "0x28a054D863695f07B61FF5624ca524FA227bB113",
+        "gelatoSwapper": "0xF69eA4b10e4BE667e4A043DD6a772c0cf82eff4D",
+        "earnConfiguration": "0x89a212CE0213E78E14dE5cBC03fC2E5f2a4813e6",
+        "gelatoChecker": "0x1c75DdD560aC2848a26ba243A3CD91621ACba57b",
+        "earnBeacon": "0x2556325bA926A2D78FA634908c3dA6AEbDeC5b28",
+        "earnFactory": "0x6dCDc5FC31fB34ab46bD79A846fd1CDc6Dcf6679",
+        "earnHelper": "0x45B577414FDc4026188e5F300C6aaFA59d20455E",
+        "lpHelpers": {
+          "v2-stargate-base": {
+            "address": "0x1Edaaa6d7E6feEb52014Db9aDce83A200cD1697e"
+          },
+          "v2-balancer": {
+            "address": "0xa727e1Db0B0f0E3907A554ab7441F192Ca993B46"
+          },
+          "v2-velodrome": {
+            "address": "0x09ddf6B94cA20888b606999ea4C796b7b475f842"
+          },
+          "v2-uni-v2-base": {
+            "address": "0x367e3295BA1788e28aA3660e4cf9B554d284dbAf"
+          }
+        },
+        "twapOracles": {},
+        "pools": {
+          "base-earn-aerodrom-baseswap-usdc-eth": {
+            "earn": "0x1Ef674Fd925d0CD56B00F9aC6c802AE99468b7E3",
+            "vaults": [
+              {
+                "part": 50,
+                "vaultId": "aerodrome-cbeth-weth",
+                "lpHelper": "0x09ddf6B94cA20888b606999ea4C796b7b475f842"
+              },
+              {
+                "part": 50,
+                "vaultId": "baseswap-weth-usdc",
+                "lpHelper": "0x367e3295BA1788e28aA3660e4cf9B554d284dbAf"
+              }
+            ]
+          }
+        }
+      },
+      "ac": "0x7ecC65ddad1ac75143786F186E885B448Ba52a37",
+      "treasury": "0x455dde90aF71Eb7a246c848f74cb5900B55b5a62",
+      "multicall": "0x95D3fe3b5b843d38B3b6dc9A3840125f6aF67C77",
+      "multicallManager": "0xc471c06D451E08e1d7952FD33D37426a249b3578",
+      "vaultBeacon": "0x13bFbAdD7c1186D73DEbaF303BAdc924E3a59ACe",
+      "vaultFactory": "0x66E032C9802E42bd340D51B64fe7A8058C9eC9e4",
+      "boostImplementation": "0x0B2Bd3f18Da713a46d50E6415FaCf017dE4aFB52",
+      "boostFactory": "0xfFCd1C1E4FbFD9B67dfba7D385a2508C50969718"
+    },
+    "environment": {
+      "unirouter": "0xcF77a3Ba9A5CA399B7c97c74d54e5b1Beb874E43",
+      "unirouterV3": "0xcF77a3Ba9A5CA399B7c97c74d54e5b1Beb874E43",
+      "gelatoAutomate": "0x2A6C106ae13B558BB9E2Ec64Bd2f1f7BEFF3A5E0",
+      "oneInchRouter": "0x1111111254EEB25477B68fb85Ed929f73A960582",
+      "uniswapV3Quoter": "0xcF77a3Ba9A5CA399B7c97c74d54e5b1Beb874E43"
+    }
+  }
+}

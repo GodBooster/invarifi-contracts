@@ -1,0 +1,37 @@
+[
+  {
+    "id": "base-earn-aerodrom-baseswap-usdc-eth",
+    "description": "Aerodrom/BaseSwap/USDC/ETH",
+    "stableAddress": "0xd9aAEc86B65D86f6A7B5B1b0c42FFA531710b6CA",
+    "stableDecimals": 6,
+    "stable": "USDbC",
+    "name": "Aerodrom/BaseSwap/USDC/ETH",
+    "stopLosses": [
+      10,
+      15,
+      30
+    ],
+    "earnHelper": "0x45B577414FDc4026188e5F300C6aaFA59d20455E",
+    "earn": "0x1Ef674Fd925d0CD56B00F9aC6c802AE99468b7E3",
+    "vaults": [
+      {
+        "part": 50,
+        "vaultId": "aerodrome-cbeth-weth",
+        "lpHelper": "0x09ddf6B94cA20888b606999ea4C796b7b475f842"
+      },
+      {
+        "part": 50,
+        "vaultId": "baseswap-weth-usdc",
+        "lpHelper": "0x367e3295BA1788e28aA3660e4cf9B554d284dbAf"
+      }
+    ],
+    "earnConfiguration": "0x89a212CE0213E78E14dE5cBC03fC2E5f2a4813e6",
+    "priceAggregator": "0x28a054D863695f07B61FF5624ca524FA227bB113",
+    "reservedForAutomation": 0,
+    "status": "active",
+    "risks": [],
+    "gelatoChecker": "0x1c75DdD560aC2848a26ba243A3CD91621ACba57b",
+    "createdAt": 1706883312,
+    "network": "base"
+  }
+]

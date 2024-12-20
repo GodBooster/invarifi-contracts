@@ -1,0 +1,94 @@
+import hre, { ethers } from "hardhat";
+import {
+  VaultV7__factory,
+  CommonZapOneInch__factory,
+  ERC20__factory,
+  HopZapOneInch__factory,
+  IWETH__factory,
+  AccessControlMain__factory,
+  StrategyHopCamelot__factory,
+  StrategyHopSolidly,
+  StrategyHopSolidly__factory,
+} from "../../../../typechain-types";
+import { BigNumber } from "ethers";
+import { optimismContracts } from "../../../constants";
+import { StrategyConstructorParams } from "../../../../scripts/deployment/types/strategy-constructor-params";
+
+export const StrategyHopSolidlyOpDeployment = async () => {
+  const [deployer] = await ethers.getSigners();
+  console.log("Deployer", deployer.address);
+  const ac = await new AccessControlMain__factory(deployer).deploy();
+  await ac.initialize();
+
+  // eslint-disable-next-line camelcase
+  const strategyHop = await new StrategyHopSolidly__factory(deployer).deploy();
+
+  const vault = await new VaultV7__factory(deployer).deploy();
+
+  await vault.initialize(strategyHop.address, "Test4", "Test4", 0);
+  console.log(ac.address);
+  const params = [
+    "0x5C2048094bAaDe483D0b1DA85c3Da6200A88a849",
+    "0x95d6A95BECfd98a7032Ed0c7d950ff6e0Fa8d697",
+    "0xaa30D6bba6285d0585722e2440Ff89E23EF68864",
+    [
+      {
+        from: "0xc5102fE9359FD9a28f877a67E36B0F050d81a3CC",
+        to: "0x4200000000000000000000000000000000000006",
+        stable: false,
+        factory: "0x4200000000000000000000000000000000000006",
+      },
+    ],
+    [
+      {
+        from: "0xc5102fE9359FD9a28f877a67E36B0F050d81a3CC",
+        to: "0x4200000000000000000000000000000000000006",
+        stable: false,
+        factory: "0x4200000000000000000000000000000000000006",
+      },
+    ],
+    {
+      vault: vault.address,
+      unirouter: "0x9c12939390052919aF3155f41Bf4160Fd3666A6f",
+      ac: ac.address,
+      feeRecipient: "0x02Ae4716B9D5d48Db1445814b0eDE39f5c28264B",
+      feeConfig: "0x216EEE15D1e3fAAD34181f66dd0B665f556a638d",
+    },
+  ] as StrategyConstructorParams<StrategyHopSolidly>;
+
+  await strategyHop.initialize(...params);
+  console.log("Hello");
+
+  await hre.network.provider.request({
+    method: "hardhat_impersonateAccount",
+    params: [optimismContracts.tokens.USDC.holder],
+  });
+
+  await hre.network.provider.request({
+    method: "hardhat_setBalance",
+    params: [
+      optimismContracts.tokens.USDC.holder,
+      BigNumber.from(ethers.utils.parseEther("1000")).toHexString().replace("0x0", "0x"),
+    ],
+  });
+
+  const signer = await ethers.getSigner(optimismContracts.tokens.USDC.holder);
+  // eslint-disable-next-line camelcase
+  const usdc = ERC20__factory.connect(optimismContracts.tokens.USDC.token, deployer);
+
+  await usdc.connect(signer).transfer(deployer.address, await usdc.balanceOf(signer.address));
+
+  // eslint-disable-next-line camelcase
+  const weth = IWETH__factory.connect(optimismContracts.tokens.WETH.token, deployer);
+
+  const zap = await new HopZapOneInch__factory(deployer).deploy(optimismContracts.oneInchRouter, weth.address);
+
+  return {
+    strategyHop,
+    weth,
+    zap,
+    stableCoin: usdc,
+    deployer,
+    vault,
+  };
+};

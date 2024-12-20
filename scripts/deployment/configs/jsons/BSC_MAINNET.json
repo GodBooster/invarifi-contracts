@@ -1,0 +1,285 @@
+{
+  "deployers": {
+    "Pancake CAKE-BNB LP": {
+      "networkConfig": {
+        "deployCommonParams": {
+          "feeConfig": "0x2AD352e782249e5f05449ac728aee06D75C3D3a1",
+          "feeRecipient": "0x9Eb7a50D535FD4Eb92279E717ddad9514cCDABEa",
+          "ac": "0x1210a905eB656EcA11820539C75500AB4232cF86",
+          "unirouter": "0x10ED43C718714eb63d5aA57B78B54704E256024E",
+          "vault": "0x6b925F9877e613B9b6c05c41cDBc807B9A9F4100"
+        },
+        "vaultFactory": "0xa727e1Db0B0f0E3907A554ab7441F192Ca993B46"
+      },
+      "strategyConfig": {
+        "vaultConfig": {
+          "strategyChangeApprovalDelay": 3600,
+          "vaultName": "InvariFi Pancake CAKE-BNB LP",
+          "vaultSymbol": "invariFiPancakeCakeBnbLp"
+        },
+        "strategyConfig": {
+          "feeCategoryId": 0
+        },
+        "beaconAddress": "0xa9D60689B8a21E6360B0E721FaB1B16096A6149B",
+        "vaultConstructorParams": {
+          "_approvalDelay": 3600,
+          "_name": "InvariFi Pancake CAKE-BNB LP",
+          "_symbol": "invariFiPancakeCakeBnbLp",
+          "strategy": "0x6eC08f61804B346ea803f42670525ba0a100EfBF"
+        },
+        "createdAt": "2024-02-02T12:50:12.690Z"
+      }
+    },
+    "Pancake CAKE-BUSD LP": {
+      "networkConfig": {
+        "deployCommonParams": {
+          "feeConfig": "0x2AD352e782249e5f05449ac728aee06D75C3D3a1",
+          "feeRecipient": "0x9Eb7a50D535FD4Eb92279E717ddad9514cCDABEa",
+          "ac": "0x1210a905eB656EcA11820539C75500AB4232cF86",
+          "unirouter": "0x10ED43C718714eb63d5aA57B78B54704E256024E",
+          "vault": "0x147977888A90C97bE3dad534160EFB3cccd48FE4"
+        },
+        "vaultFactory": "0xa727e1Db0B0f0E3907A554ab7441F192Ca993B46"
+      },
+      "strategyConfig": {
+        "vaultConfig": {
+          "strategyChangeApprovalDelay": 3600,
+          "vaultName": "InvariFi Pancake CAKE-BUSD LP",
+          "vaultSymbol": "invariFiPancakeCakeBusdLp"
+        },
+        "strategyConfig": {
+          "feeCategoryId": 0
+        },
+        "beaconAddress": "0xD4B533793CCAcDCa6bDe75019680070Bab0Ba02f",
+        "vaultConstructorParams": {
+          "_approvalDelay": 3600,
+          "_name": "InvariFi Pancake CAKE-BUSD LP",
+          "_symbol": "invariFiPancakeCakeBusdLp",
+          "strategy": "0x514db4B3FfA171Fd0a0D8A5674797730884d1371"
+        },
+        "createdAt": "2024-02-02T12:50:43.878Z"
+      }
+    },
+    "Pancake CAKE-USDT LP": {
+      "networkConfig": {
+        "deployCommonParams": {
+          "feeConfig": "0x2AD352e782249e5f05449ac728aee06D75C3D3a1",
+          "feeRecipient": "0x9Eb7a50D535FD4Eb92279E717ddad9514cCDABEa",
+          "ac": "0x1210a905eB656EcA11820539C75500AB4232cF86",
+          "unirouter": "0x10ED43C718714eb63d5aA57B78B54704E256024E",
+          "vault": "0x523ED0fD715FeAda762643c29DeeE40F68A51Edb"
+        },
+        "vaultFactory": "0xa727e1Db0B0f0E3907A554ab7441F192Ca993B46"
+      },
+      "strategyConfig": {
+        "vaultConfig": {
+          "strategyChangeApprovalDelay": 3600,
+          "vaultName": "InvariFi Pancake CAKE-USDT LP",
+          "vaultSymbol": "invariFiPancakeCakeUsdtLp"
+        },
+        "strategyConfig": {
+          "feeCategoryId": 0
+        },
+        "beaconAddress": "0x0EC973131490E3D40C7fBef9e6DAC18917f1F078",
+        "vaultConstructorParams": {
+          "_approvalDelay": 3600,
+          "_name": "InvariFi Pancake CAKE-USDT LP",
+          "_symbol": "invariFiPancakeCakeUsdtLp",
+          "strategy": "0x44F541f0CB8Fa39c6D81377618211670F845E6A8"
+        },
+        "createdAt": "2024-02-02T12:54:40.764Z"
+      }
+    },
+    "BSC Stargate USDT LP": {
+      "networkConfig": {
+        "deployCommonParams": {
+          "feeConfig": "0x2AD352e782249e5f05449ac728aee06D75C3D3a1",
+          "feeRecipient": "0x9Eb7a50D535FD4Eb92279E717ddad9514cCDABEa",
+          "ac": "0x1210a905eB656EcA11820539C75500AB4232cF86",
+          "unirouter": "0x10ED43C718714eb63d5aA57B78B54704E256024E",
+          "vault": "0x3C7BFDaF30da64B2fF4eDa2c433B920886e0d083"
+        },
+        "vaultFactory": "0xa727e1Db0B0f0E3907A554ab7441F192Ca993B46"
+      },
+      "strategyConfig": {
+        "vaultConfig": {
+          "strategyChangeApprovalDelay": 3600,
+          "vaultName": "InvariFi BSC Stargate USDT LP",
+          "vaultSymbol": "invariFiBscStargateUsdtLp"
+        },
+        "strategyConfig": {
+          "feeCategoryId": 0
+        },
+        "beaconAddress": "0x8eaAb084fc6A65d9DC365E69E377Fc356B401016",
+        "vaultConstructorParams": {
+          "_approvalDelay": 3600,
+          "_name": "InvariFi BSC Stargate USDT LP",
+          "_symbol": "invariFiBscStargateUsdtLp",
+          "strategy": "0x1f9a454c7f0ea8f17e65749F2b8c6b306Df3c19b"
+        },
+        "createdAt": "2024-02-02T13:57:51.025Z"
+      }
+    },
+    "Biswap ETH-BNB LP": {
+      "networkConfig": {
+        "deployCommonParams": {
+          "feeConfig": "0x2AD352e782249e5f05449ac728aee06D75C3D3a1",
+          "feeRecipient": "0x9Eb7a50D535FD4Eb92279E717ddad9514cCDABEa",
+          "ac": "0x1210a905eB656EcA11820539C75500AB4232cF86",
+          "unirouter": "0x3a6d8cA21D1CF76F653A67577FA0D27453350dD8",
+          "vault": "0x8143288d0D37C77C391c27eBEe712F5499468B96"
+        },
+        "vaultFactory": "0xa727e1Db0B0f0E3907A554ab7441F192Ca993B46"
+      },
+      "strategyConfig": {
+        "vaultConfig": {
+          "strategyChangeApprovalDelay": 3600,
+          "vaultName": "InvariFi Biswap ETH-BNB LP",
+          "vaultSymbol": "invariFiBiswapEthBnbLp"
+        },
+        "strategyConfig": {
+          "feeCategoryId": 0
+        },
+        "beaconAddress": "0xa6DC245CB209A267914cBfB51Eaad2C6E8AD23b8",
+        "vaultConstructorParams": {
+          "_approvalDelay": 3600,
+          "_name": "InvariFi Biswap ETH-BNB LP",
+          "_symbol": "invariFiBiswapEthBnbLp",
+          "strategy": "0x9400e871dC409d0E6fFe16E25D9aE5aa5DD5Ed4E"
+        },
+        "createdAt": "2024-02-02T13:58:20.098Z"
+      }
+    }
+  },
+  "config": {
+    "contractsConfig": {
+      "devMultisig": "0x0D4911Be84344d3141b0790a519Cb3c4d74F845e",
+      "treasuryMultisig": "0x0D4911Be84344d3141b0790a519Cb3c4d74F845e",
+      "voter": "0x0D4911Be84344d3141b0790a519Cb3c4d74F845e",
+      "vaultOwner": "0x0D4911Be84344d3141b0790a519Cb3c4d74F845e",
+      "strategyOwner": "0x0D4911Be84344d3141b0790a519Cb3c4d74F845e",
+      "treasurer": "0x0D4911Be84344d3141b0790a519Cb3c4d74F845e",
+      "keeper": "0x0D4911Be84344d3141b0790a519Cb3c4d74F845e",
+      "feeConfig": {
+        "default": {
+          "id": "0",
+          "total": "0.095",
+          "call": "0.942",
+          "strategist": "0.0052",
+          "label": "default",
+          "active": true,
+          "adjust": false
+        },
+        "feeConfigurator": "0x2AD352e782249e5f05449ac728aee06D75C3D3a1"
+      },
+      "zaps": {
+        "oneInch": {
+          "router": "0x1111111254EEB25477B68fb85Ed929f73A960582",
+          "categories": [
+            "common"
+          ],
+          "metadata": {
+            "priceOracleAddress": "0xfbD61B037C325b959c0F6A7e69D8f37770C2c550",
+            "fee": {
+              "value": 0.0005
+            },
+            "depositFromTokens": [
+              "BNB",
+              "WBNB",
+              "USDC",
+              "USDT",
+              "DAI",
+              "BTCB"
+            ],
+            "withdrawToTokens": [
+              "BNB",
+              "WBNB",
+              "USDC",
+              "USDT",
+              "DAI",
+              "BTCB"
+            ],
+            "blockedTokens": [],
+            "blockedVaults": []
+          },
+          "zaps": [
+            {
+              "address": "0x1e4d563Bc17f710D9A58a779E8068BD47653a3aC",
+              "category": "common"
+            }
+          ]
+        }
+      },
+      "wNative": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "earn": {
+        "reservedForAutomation": 10,
+        "stable": "0x55d398326f99059ff775485246999027b3197955",
+        "priceAggregator": "0xf68FAAD62375C27cA744D48A0C5463cAE839B7a5",
+        "gelatoSwapper": "0x8719b31c1383e89F6F18d113E8f3759f8794B643",
+        "earnConfiguration": "0x24cA763329cff2ad99F910C45b5b6bD33E4227C4",
+        "gelatoChecker": "0xbB23F98D0270A5f2f53aFCE451b35Fad1Df7eF2F",
+        "earnBeacon": "0x367e3295BA1788e28aA3660e4cf9B554d284dbAf",
+        "earnFactory": "0x12B7DcA1f21f344FeD8A37E0456E5135dC4AB5B3",
+        "earnHelper": "0x6fe025052B59884d691E8dB5c12889D7b998b9fB",
+        "lpHelpers": {
+          "uni-v2": {
+            "address": "0x50Db9C035b38085c5277aba59F80beeaA7901434"
+          },
+          "stargate": {
+            "address": "0xCa03496dC7Aac0aFEbd67109B60a387f02766356"
+          }
+        },
+        "twapOracles": {},
+        "pools": {
+          "bsc-earn-stargate-cake-biswap-busd-usdt-v4": {
+            "earn": "0x156F3f5eC03c16f4C3a500d797470892a2cB7F5c",
+            "vaults": [
+              {
+                "part": 40,
+                "vaultId": "cakev2-cake-bnb",
+                "lpHelper": "0x50Db9C035b38085c5277aba59F80beeaA7901434"
+              },
+              {
+                "part": 50,
+                "vaultId": "stargate-bsc-usdt",
+                "lpHelper": "0xCa03496dC7Aac0aFEbd67109B60a387f02766356"
+              },
+              {
+                "part": 10,
+                "vaultId": "biswap-eth-wbnb",
+                "lpHelper": "0x50Db9C035b38085c5277aba59F80beeaA7901434"
+              }
+            ]
+          }
+        }
+      },
+      "strategiesShared": {
+        "bscVeCakeStaker": {
+          "want": "0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82",
+          "veCake": "0x45c54210128a065de780C4B0Df3d16664f7f859e",
+          "reserveRate": "1",
+          "cakeBatch": "0x948BCda327D598CC094F74d25DE1807b736D514B",
+          "beCakeShare": "0",
+          "name": "Cubera CAKE",
+          "symbol": "cbrCAKE",
+          "staker": "0x1ecc3Ab3bFF5862dEFA16909753a87FEb1fFF099"
+        }
+      },
+      "ac": "0x1210a905eB656EcA11820539C75500AB4232cF86",
+      "treasury": "0x9Eb7a50D535FD4Eb92279E717ddad9514cCDABEa",
+      "multicall": "0xd36d2C726CE8dD39972bf730a7987479d4cD1963",
+      "multicallManager": "0x61809eCc6509c60Ee22Ab558616aeA273F5eeCfe",
+      "vaultBeacon": "0xC3B6898755FaeBFf78e8c5794490dC52f007e3e3",
+      "vaultFactory": "0xa727e1Db0B0f0E3907A554ab7441F192Ca993B46",
+      "boostImplementation": "0x556cd6ba94E6f18daE8e93d7aC0Ed8A1355fcc43",
+      "boostFactory": "0x09ddf6B94cA20888b606999ea4C796b7b475f842"
+    },
+    "environment": {
+      "unirouter": "0x10ED43C718714eb63d5aA57B78B54704E256024E",
+      "unirouterV3": "0x1b81D678ffb9C0263b24A97847620C99d213eB14",
+      "gelatoAutomate": "0x2A6C106ae13B558BB9E2Ec64Bd2f1f7BEFF3A5E0",
+      "oneInchRouter": "0x1111111254EEB25477B68fb85Ed929f73A960582",
+      "uniswapV3Quoter": "0xB048Bbc1Ee6b733FFfCFb9e9CeF7375518e25997"
+    }
+  }
+}

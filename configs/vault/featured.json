@@ -1,0 +1,8 @@
+{
+  "stargate-polygon-usdt": true,
+  "balancer-zkevm-wsteth-reth": true,
+  "balancer-tbtc-weth": true,
+  "velodrome-v2-weth-op": true,
+  "convex-tricrypto-usdc": true,
+  "thena-gamma-bnbx-bnb": true
+}

@@ -1,0 +1,19 @@
+{
+  "devMultisig": "0x610acfd59bef98f34740b780b81d04079ac732d4",
+  "treasuryMultisig": "0x610acfd59bef98f34740b780b81d04079ac732d4",
+  "strategyOwner": "0x610acfd59bef98f34740b780b81d04079ac732d4",
+  "vaultOwner": "0x610acfd59bef98f34740b780b81d04079ac732d4",
+  "keeper": "0x610acfd59bef98f34740b780b81d04079ac732d4",
+  "treasurer": "0x610acfd59bef98f34740b780b81d04079ac732d4",
+  "launchpoolOwner": "0x610acfd59bef98f34740b780b81d04079ac732d4",
+  "voter": "0x5e1caC103F943Cd84A1E92dAde4145664ebf692A",
+  "feeRecipient": "0x610acfd59bef98f34740b780b81d04079ac732d4",
+
+  "rewardPool": "0xF49c523F08B4e7c8E51a44088ea2a5e6b5f397D9",
+  "treasury": "0x610acfd59bef98f34740b780b81d04079ac732d4",
+  "multicall": "0x9dA9f3C6c45F1160b53D395b0A982aEEE1D212fE",
+  "feeConfig": "0x3d38BA27974410679afF73abD096D7Ba58870EAd",
+  "vaultFactory": "0xC551dDCE8e5E657503Cd67A39713c06F2c0d2e97",
+  
+  "cuberaMaxiStrategy": "0x697aFD2D17e7e274529ABd2db49A2953bb081091"
+}

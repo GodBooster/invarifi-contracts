@@ -1,0 +1,37 @@
+[
+  {
+    "id": "arb-earn-stargate-solidlizard-eth-usdc",
+    "description": "Stargate/Solidlizard/USDT/ETH/USDCe",
+    "stableAddress": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
+    "stableDecimals": 6,
+    "stable": "USDT",
+    "name": "Stargate/Solidlizard/USDT/ETH/USDCe",
+    "stopLosses": [
+      10,
+      15,
+      30
+    ],
+    "earnHelper": "0x45B577414FDc4026188e5F300C6aaFA59d20455E",
+    "earn": "0x1Ef674Fd925d0CD56B00F9aC6c802AE99468b7E3",
+    "vaults": [
+      {
+        "part": 50,
+        "vaultId": "stargate-arb-eth",
+        "lpHelper": "0x93188E2d7bd0825Ad2d785C13A68f4F1c1e2E939"
+      },
+      {
+        "part": 50,
+        "vaultId": "solidlizard-weth-usdc",
+        "lpHelper": "0x8719b31c1383e89F6F18d113E8f3759f8794B643"
+      }
+    ],
+    "earnConfiguration": "0x89a212CE0213E78E14dE5cBC03fC2E5f2a4813e6",
+    "priceAggregator": "0x28a054D863695f07B61FF5624ca524FA227bB113",
+    "reservedForAutomation": 10,
+    "status": "active",
+    "risks": [],
+    "gelatoChecker": "0x1c75DdD560aC2848a26ba243A3CD91621ACba57b",
+    "createdAt": 1706883153,
+    "network": "arbitrum"
+  }
+]
